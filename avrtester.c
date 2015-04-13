@@ -22,7 +22,7 @@ int main(void)
 			PORTB = ~(1 << i);
 			PORTC = ~(1 << i);
 			PORTD = ~(1 << i);
-			_delay_ms(100);
+			_delay_ms(200);
 		}
 	}
 	return 0;
