@@ -121,6 +121,11 @@ squeaky_clean:
 flash: $(TARGET).hex 
 	$(AVRDUDE) -c $(PROGRAMMER_TYPE) -p $(MCU) $(PROGRAMMER_ARGS) -U flash:w:$<
 
+## erase chip
+
+erase:
+	$(AVRDUDE) -c $(PROGRAMMER_TYPE) -p $(MCU) -e
+
 ## An alias
 program: flash
 
