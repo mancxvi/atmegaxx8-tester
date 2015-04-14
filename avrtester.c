@@ -2,7 +2,7 @@
  * ATmegaxx8-p tester
  *
  * Directions: build a thing w/ LEDs on each pin
- * open-palm slam an atmega into a slot
+ * open-palm slam an atmega into the slot
  * if all the lights blink, it's good enough i guess
  */
 
