@@ -11,7 +11,7 @@ how
 
 make a circuit with LEDs and resistors attached to all the register pins on an atmega328p.
 
-it kind of looks like this:
+it looks like this:
 
 ![hell yeah wire wrap](./photo.jpg)
 
